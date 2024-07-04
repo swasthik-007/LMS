@@ -24,6 +24,7 @@ function SideNav() {
         <div className='p-5 bg-white shadow-sm border h-screen'>
             <Image src='/logo.svg' width={170} height={80} alt='logo' />
             <hr className='mt-7' />
+            {/* MENULISt */}
             <div className='mt-5'>
                 {menu.map((item, index) => (
                     <div className='group flex gap-3 mt-2 p-3 text-[18px] items-center text-gray-500 cursor-pointer
