@@ -40,11 +40,17 @@ function CourseList() {
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-4
             ">
-                {courseList.map((item, index) => (
+                {courseList?.length > 0 ? courseList.map((item, index) => (
                     <div key={index}>
                         <CourseItem course={item} />
                     </div>
-                ))}
+                )) :
+                    [1, 2, 3, 4, 5, 6, 7].map((item, index) => (
+
+                        <div key={index} className='w-full h-[240px] rounded-xl m-2 bg-gray-100 animate-pulse'>
+
+                        </div>
+                    ))}
             </div>
         </div>
     )
