@@ -4,6 +4,12 @@ const nextConfig = {
   images: {
     domains: ["ap-south-1.graphassets.com"],
   },
+  images: {
+    domains: ["img.freepik.com"],
+  },
+  images: {
+    domains: ["ap-south-1.graphassets.com"],
+  },
 };
 
 export default nextConfig;

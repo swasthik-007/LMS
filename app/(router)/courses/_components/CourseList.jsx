@@ -1,4 +1,4 @@
-
+'use client'
 
 import GlobalApi from '@/app/_utils/GlobalApi'
 import { useEffect, useState } from 'react';
