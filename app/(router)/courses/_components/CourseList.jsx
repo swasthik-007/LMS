@@ -11,6 +11,7 @@ import {
     SelectValue
 } from "@/components/ui/select"
 import CourseItem from './CourseItem';
+import Link from 'next/link';
 function CourseList() {
     const [courseList, setCourseList] = useState([])
     useEffect(() => {
@@ -41,9 +42,12 @@ function CourseList() {
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-4
             ">
                 {courseList?.length > 0 ? courseList.map((item, index) => (
-                    <div key={index}>
-                        <CourseItem course={item} />
-                    </div>
+
+                    <Link href={'/course-preview/' + item.slug}>
+                        <div key={index}>
+                            <CourseItem course={item} />
+                        </div>
+                    </Link>
                 )) :
                     [1, 2, 3, 4, 5, 6, 7].map((item, index) => (
 
