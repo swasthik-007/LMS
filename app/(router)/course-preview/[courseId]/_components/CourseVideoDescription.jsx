@@ -6,7 +6,7 @@ import { Button } from '/components/ui/button'
 function CourseVideoDescription({ courseInfo, activeChapterIndex, watchMode, setChapterCompleted }) {
     return (
         <div>
-            <h2 className='text-[20px] font-semibold'>{courseInfo.name}</h2>
+            <h2 className='text-[22px] font-bold'>{courseInfo.name}</h2>
             <h2 className='text-gray-500 text-[14px] mb-3'>{courseInfo.authors}</h2>
             <VideoPlayer videoUrl={courseInfo?.chapter[activeChapterIndex]?.video?.url}
                 poster={!watchMode ? courseInfo?.banner?.url : null} />
@@ -20,7 +20,7 @@ function CourseVideoDescription({ courseInfo, activeChapterIndex, watchMode, set
             </h2>
 
             {watchMode ?
-                <Markdown className='text-[13px] font-light mt-2 leading-7'>
+                <Markdown className='text-[15px] font-light mt-2 leading-7'>
                     {courseInfo?.chapter[activeChapterIndex]?.shortDesc}
                 </Markdown>
                 :

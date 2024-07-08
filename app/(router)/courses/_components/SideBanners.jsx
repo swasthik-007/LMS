@@ -15,9 +15,9 @@ function SideBanners() {
         })
     }
     return (
-        <div>
+        <div className='mt-2'>
             {sideBannerList.map((item, index) => (
-                <div key={index}>
+                <div key={index} className='mt-4'>
                     <Image src={item.banner.url} alt='banner' onClick={() => window.open(item?.url)} className='cursor-pointer rounded-xl' width={500} height={300} />
                 </div>
             ))}
