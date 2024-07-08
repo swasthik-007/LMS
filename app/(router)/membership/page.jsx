@@ -72,7 +72,7 @@ function membership() {
                         <button className=" block rounded-full border bg-primary px-12 py-3 text-center 
                       text-sm font-medium text-white hover:ring-1
                        hover:ring-indigo-600 focus:outline w-full"
-                            onClick={() => router.push('/payment?amount=' + (1))}
+                            onClick={() => router.push('/payment')}
                         >Get Started</button>
                     </div>
                 </div>
