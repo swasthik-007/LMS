@@ -49,7 +49,7 @@ function CoursePreview({ params }) {
             <div className="">
                 <CourseEnrollSection courseInfo={courseInfo} isUserAlreadyEnrolled={isUserAlreadyEnrolled} />
 
-                <CourseContentSection courseInfo={courseInfo} />
+                <CourseContentSection courseInfo={courseInfo} isUserAlreadyEnrolled={isUserAlreadyEnrolled} />
             </div>
         </div>
     )
