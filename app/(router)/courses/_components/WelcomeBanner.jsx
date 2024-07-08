@@ -8,7 +8,7 @@ function WelcomeBanner() {
             <div
             >
                 <h2 className='font-extrabold text-[27px]'>Welcome To
-                    <span className='text-primary'> Swas</span> Academy</h2>
+                    <span className='text-primary'> Ed</span>-Hub</h2>
                 <h2 className='font-normal text-black'>Explore , Learn and Build All Real Life Projects</h2>
             </div>
         </div>
