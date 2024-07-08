@@ -30,7 +30,7 @@ function Dashboard() {
             {isVisible && (
                 <div className="flex items-center justify-between gap-4 bg-primary px-4 py-3 text-white ">
                     <p className="text-sm font-medium">
-                        Love ACADEMY ?&nbsp;&nbsp;
+                        Love Ed-Hub ?&nbsp;&nbsp;
                         <a href="/courses" className="inline-block  transition-all ease-in-out text-base hover:text-black hover:underline"> Check out our NEWLY   LAUNCHED courses!</a>
                     </p>
 
