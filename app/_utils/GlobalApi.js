@@ -253,7 +253,6 @@ const getUserAllEnrolledCourseList = async (email) => {
               name
             }
           }
-          authors
           banner {
             url
           }
